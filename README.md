@@ -36,21 +36,22 @@ Install the required Python libraries:
 
 
 pip install mediapipe opencv-python pyautogui numpy
-# ▶️ Run the App
+###▶️ Run the App
 python gesture_scroll_control.py
 Note: Make sure your webcam is connected and visible to the app.
 
-# ✋ Gestures
+###✋ Gestures
 
 Gesture	Action	Description
 Open Palm	Scroll Down	All fingers extended
 Fist (Punch)	Scroll Up	All fingers curled or closed
 Pinch (Index)	Click	Index finger tip close to thumb tip
 
- # 🎯 Future Improvements
+### 🎯 Future Improvements
 Improve gesture stability with smoothing
 Add visual feedback overlay
 Support for right-click and drag
 Combine hand + face + pose gestures using MediaPipe Holistic
+
 # 🙌 Author
 Zain Jadoon
