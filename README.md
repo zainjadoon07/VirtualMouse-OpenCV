@@ -78,12 +78,6 @@ gesture-scroll/
 
 ---
 
-## 📜 License
-
-MIT License
-
----
-
 ## 🙌 Author
 
 Zain Jadoon
