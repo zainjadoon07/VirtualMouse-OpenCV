@@ -40,7 +40,7 @@ pip install mediapipe opencv-python pyautogui numpy
 python gesture_scroll_control.py
 Note: Make sure your webcam is connected and visible to the app.
 
-###✋ Gestures
+### ✋ Gestures
 
 Gesture	Action	Description
 Open Palm	Scroll Down	All fingers extended
