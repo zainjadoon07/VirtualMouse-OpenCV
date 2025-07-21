@@ -1,93 +1,56 @@
-🖐️ Gesture-Based Scroll Control
-A Python-powered application for touchless scrolling and clicking using hand gestures captured via webcam, leveraging MediaPipe for hand tracking and OpenCV for video processing.
-📖 Overview
-Transform your webcam into a gesture-based controller! This project uses MediaPipe for real-time hand landmark detection and OpenCV to process video streams, mapping intuitive gestures to actions:
+# 🖐️ Gesture-Based Scroll Control using MediaPipe & OpenCV
 
-Scroll Up 🖐️ ➡️ Fist (Punch)
-Scroll Down ✋ ➡️ Open Palm
-Click 👉 ➡️ Index Finger Pinch (Tip close to thumb)
+This project enables gesture-based control for scrolling and clicking using your webcam. It uses **MediaPipe** to detect hand landmarks and **OpenCV** to process the video stream and map gestures to actions like:
+
+- **Scroll Up** 🖐️ ➡️ Fist (Punch)
+- **Scroll Down** ✋ ➡️ Open Palm
+- **Click** 👉 ➡️ Index Finger Pinch (Tip close to thumb)
+
+---
+
+## 📦 Features
+
+- Real-time hand tracking with MediaPipe
+- Gesture classification (Palm, Fist, Pinch)
+- Scroll up/down using mouse wheel
+- Simulated left-click using gesture
+- Runs on CPU with minimal latency
+
+---
+
+## 🧰 Technologies Used
+
+- Python 3.x
+- MediaPipe
+- OpenCV
+- pyautogui
+- numpy
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+Install the required Python libraries:
 
 
-✨ Features
-
-Real-Time Hand Tracking: Accurate detection using MediaPipe.
-Gesture Recognition: Classifies Open Palm, Fist, and Pinch gestures.
-Mouse Control: Seamlessly scroll up/down with mouse wheel emulation.
-Simulated Clicks: Perform left-clicks via gestures.
-Low Latency: Optimized for CPU-based processing with minimal delay.
-
-
-🛠️ Technologies Used
-
-Python 3.x 🐍
-MediaPipe 🤲
-OpenCV 📸
-pyautogui 🖱️
-numpy 🔢
-
-
-🚀 Getting Started
-✅ Prerequisites
-Ensure you have Python 3.x installed, then install the required libraries:
 pip install mediapipe opencv-python pyautogui numpy
-
-▶️ Running the Application
-
-Clone the repository:
-git clone https://github.com/yourusername/gesture-scroll.git
-cd gesture-scroll
-
-
-Run the main script:
+# ▶️ Run the App
 python gesture_scroll_control.py
+Note: Make sure your webcam is connected and visible to the app.
 
+# ✋ Gestures
 
-Note: Ensure your webcam is connected and accessible.
+Gesture	Action	Description
+Open Palm	Scroll Down	All fingers extended
+Fist (Punch)	Scroll Up	All fingers curled or closed
+Pinch (Index)	Click	Index finger tip close to thumb tip
 
-
-
-✋ Supported Gestures
-
-
-
-Gesture
-Action
-Description
-
-
-
-Open Palm ✋
-Scroll Down ⬇️
-All fingers extended
-
-
-Fist (Punch) 🖐️
-Scroll Up ⬆️
-All fingers curled or closed
-
-
-Pinch (Index) 👉
-Click 🖱️
-Index finger tip close to thumb tip
-
-
-
-📂 Project Structure
-gesture-scroll/
-├── gesture_scroll_control.py     # **Main Python script** for gesture control
-├── README.md                     # **Project documentation**
-
-
-🎯 Future Improvements
-
-Enhance Stability: Implement smoothing algorithms for gesture detection.
-Visual Feedback: Add an overlay to display detected gestures.
-Extended Controls: Support right-click and drag functionalities.
-Holistic Gestures: Integrate MediaPipe Holistic for hand, face, and pose combinations.
-
-
-📜 License
-This project is licensed under the MIT License 📄.
-
-🙌 Author
-Zain Jadoon 👨‍💻
+ # 🎯 Future Improvements
+Improve gesture stability with smoothing
+Add visual feedback overlay
+Support for right-click and drag
+Combine hand + face + pose gestures using MediaPipe Holistic
+# 🙌 Author
+Zain Jadoon
