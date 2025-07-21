@@ -36,7 +36,8 @@ Install the required Python libraries:
 
 
 pip install mediapipe opencv-python pyautogui numpy
-###▶️ Run the App
+
+### ▶️ Run the App
 python gesture_scroll_control.py
 Note: Make sure your webcam is connected and visible to the app.
 
